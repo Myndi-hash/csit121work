@@ -1,0 +1,37 @@
+body {
+    background-color: lightgrey;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,h2, h3,h4, h5  {
+    color: lightsalmon;
+    font-weight: 200;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p, ol {
+    background-color: lightgray;
+}
+
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+ 
