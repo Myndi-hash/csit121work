@@ -1,0 +1,130 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+main {
+  display: flex;
+  flex: 1;
+}
+
+body {
+    background-color: lightgrey;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,h2, h3,h4, h5  {
+    color: lightsalmon;
+    font-weight: 200;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex: 3;
+    background-color: darkcyan;
+    display: block;
+}
+
+p, ol {
+    background-color: lightgray;
+}
+
+footer {
+  background-color: darkcyan;
+  display: block;
+}
+section {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 20px;
+  border: 2px solid darkcyan;
+}
+
+nav {
+  background-color: darkcyan;
+  display: flex; 
+  justify-content: center;
+  border-radius: 25px;
+  margin: 15px;
+  padding: 1vh;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+#lesson1 {
+  color: darkorange;
+}
+
+.notes {
+  color: darkblue;
+}
+
+a:link {
+    color: lightsalmon;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 70%;
+        background-color: whitesmoke;
+        justify-content: center;
+    }
+
+  
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+      background-color: rgb(219, 208, 207);
+      justify-content: center;
+  }
+
+
+}
+
+@media screen and (min-width: 1068px) {
+  .container {
+      flex-direction: column;
+      background-color: rgb(145, 129, 129);
+      width: 80%;
+      margin: auto;
+      max-width: 1200px;
+      display: grid;
+  }
+}
+
+
+
+ 
