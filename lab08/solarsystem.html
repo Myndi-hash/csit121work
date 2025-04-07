@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+</head>
+<body>
+    <main>
+
+        <header>
+            <h1>Lab08 Assignment</h1>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="pyramidofgiza.html">The Pyramind of Giza</a>
+                <a href="solarsystem.html">The Solar System</a>
+                <a href="graphiccard.html">Graphic Card Nvidia</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Solar System Description</h2>
+            <p>
+                The solar system we live in has 8 planets(Saturn,Uranus, Mars, venus, Neptune, Jupiter, Mercury, etc..), 
+                hundreds of moons,and thousand of asteroid and comets. So far the earth is the planet with life potential,
+                 but NASA and other countries are searching for life on other worlds in our solar system.
+            </p>
+
+            <img class="picture" src="images/solar-system.jpeg" alt="A solar system in details">
+        </section>
+
+        <section>
+           
+            <h2> Image Type information</h2>
+            <p>
+                The image is in a JPEG format, defined as Joint Photographic Expert Group. This format is mostly used
+                for photograpghs. The benefits from JPEG are the presence of a multitiude of colors(millions in this case), 
+                uses lossy compression, cannot be animated and cannot be transparent.
+            </p>
+
+            <h2>Why I choose this Image</h2>
+            <p>
+                I choose this image because I like to learn about space, and I am curious to know how our Solar Sytems works,
+                and how many life exist beyong our solar system.
+            </p>
+
+            <h3>Sources</h3>
+            <ul><li><a href="https://commons.wikimedia.org/wiki/File:Solar_System_annotated.jpg#file"> Solar System</a></li></ul>
+        </section>
+
+       
+        <footer> &copy;2025 Student for CSIT 121 at <a href="http://ccbcmd.edu">CCBC</a> </footer>
+    </main>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+</script>
+</body>
+</html>
